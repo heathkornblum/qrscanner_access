@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="accessAppBarColor">#002B4D</color>
+    <color name="accessBackgroundColor">#FFFFFF</color>
+    <color name="textOnDarkBackground">#FFFFFF</color>
+    <color name="darkText">#000000</color>
+    <color name="lightGray">#DDDDDD</color>
+    <color name="mediumGray">#444444</color>
+    <color name="errorBackground">#FFECE9</color>
+    <color name="buttonGradientTop">#1dd1ef</color>
+    <color name="buttonGradientBottom">#0b75a5</color>
+    <color name="red">#D8000C</color>
+    <color name="cancelButtonBackground">#44555555</color>
+</resources>

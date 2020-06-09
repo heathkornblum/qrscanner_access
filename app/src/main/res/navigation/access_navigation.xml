@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/access_navigation.xml"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/QRCodeButton"
+        android:name="com.conversantmedia.access.QRCodeButton"
+        android:label="fragment_qrcode_button"
+        tools:layout="@layout/fragment_qrcode_button">
+        <action
+            android:id="@+id/action_QRCodeButton_to_QRCamera"
+            app:destination="@id/QRCamera"
+            app:enterAnim="@anim/in_from_left"
+            app:exitAnim="@anim/in_from_left"
+            app:popEnterAnim="@anim/in_from_left"
+            app:popExitAnim="@anim/in_from_left" />
+        <argument
+            android:name="failure"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_QRCodeButton_to_authentication"
+            app:destination="@id/authentication" />
+    </fragment>
+    <fragment
+        android:id="@+id/QRCamera"
+        android:name="com.conversantmedia.access.QRCamera"
+        android:label="fragment_qrcamera"
+        tools:layout="@layout/fragment_qrcamera" >
+        <action
+            android:id="@+id/action_QRCamera_to_QRCodeButton"
+            app:destination="@id/QRCodeButton" />
+    </fragment>
+    <fragment
+        android:id="@+id/authentication"
+        android:name="com.conversantmedia.access.Authentication"
+        android:label="fragment_authentication"
+        tools:layout="@layout/fragment_authentication" >
+        <action
+            android:id="@+id/action_authentication_to_QRCodeButton"
+            app:destination="@id/QRCodeButton"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.conversantmedia.access.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_QRCodeButton"
+            app:destination="@id/QRCodeButton"
+            app:enterAnim="@anim/in_from_left"
+            app:exitAnim="@anim/in_from_left"
+            app:popEnterAnim="@anim/in_from_left"
+            app:popExitAnim="@anim/in_from_left" />
+    </fragment>
+</navigation>

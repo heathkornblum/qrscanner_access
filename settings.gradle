@@ -1,0 +1,2 @@
+include ':app', ':ConversantSDK'
+project(':ConversantSDK').projectDir = new File('SSAPI-Adaptor-Android/ConversantSDK')

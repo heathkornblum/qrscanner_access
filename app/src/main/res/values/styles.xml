@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeConversant" parent="AppTheme">
+        <item name="buttonStyle"></item>
+
+
+    </style>
+
+    <style name="ConversantTheme" parent="AppTheme">
+        <item name="toolbarStyle">@style/ConversantToolBar</item>
+        <item name="android:windowBackground">@color/accessAppBarColor</item>
+    </style>
+
+    <style name="ConversantToolBar" parent="AppTheme">
+        <item name="android:background">#000000</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="AppThemeConversant">
+    </style>
+</resources>

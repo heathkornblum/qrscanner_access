@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonCornerRadius">3dp</dimen>
+    <dimen name="buttonGradientAngle">90</dimen>
+    <dimen name="leftRightButtonContentPadding">16dp</dimen>
+    <dimen name="topBottomButtonContentPadding">8dp</dimen>
+    <dimen name="textFieldCornerRadius">3dp</dimen>
+    <dimen name="rounderCornerRadius">6dp</dimen>
+    <dimen name="generalFontSize">18sp</dimen>
+    <dimen name="smaller_text_size">16sp</dimen>
+    <dimen name="error_symbol_padding">10dp</dimen>
+</resources>

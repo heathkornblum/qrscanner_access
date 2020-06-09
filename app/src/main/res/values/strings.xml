@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Conversant Access</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_credentials">Your credentials are invalid.</string>
+    <string name="scanner_stopped">QR Scanner has stopped</string>
+    <string name="remember_me">Remember me on this device</string>
+    <string name="conversant_access_title">Conversant Access</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_error_message">Either your email or password is invalid or your account is locked.  You can try again or contact Help Desk for assistance.</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="cancel">Cancel</string>
+    <string name="copyright_text">\u00A9 2019 Conversant LLC and Epsilon Data Management, LLC.  All rights reserved. All names and logos are trademarks or registered trademarks of their respective owners.</string>
+    <string name="failed_qr_code">Try again</string>
+    <string name="forgot_password_url">https://access.conversantmedia.com/#/passwordResetEmail</string>
+    <string name="log_out">Log Out</string>
+    <string name="scan_error">There was a problem scanning this code. \n %1$s</string>
+</resources>
